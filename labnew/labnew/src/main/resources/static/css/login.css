@@ -1,0 +1,61 @@
+<style>
+<body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: #E0FFFF;}
+
+select{
+       height: 20px;
+        width: 400px;
+        font-size: 15px;
+       padding:30px;
+     }	     
+
+
+     #showValue{
+      font-size: 34px
+
+     }
+
+    
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background: #D3D3D3;
+}
+
+button {
+  background-color: #48D1CC;
+  color: white;
+  font-weight:700;
+  padding: 16px 20px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #3366ff;
+  opacity: 3;
+}
+
+
+
+.container {
+  padding: 30px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+}
+</style>

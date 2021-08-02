@@ -1,0 +1,74 @@
+<style>
+  .borders{ border: 1px solid #fff; }
+
+  body {
+  font-family: Arial, "Times New Roman", Times, serif;
+  background-color: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+}
+.container_R {
+  padding: 30px;
+  background-color: white;
+}
+.content form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;;
+  margin: 8px 0;
+  
+  display: inline-block;
+  border: 1px solid #ccc;
+  background:#D3D3D3; ;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+
+/* Set a style for the submit button */
+  .btn {
+  background-color: #48D1CC;
+  color: white;
+  font-weight:800;
+  padding: 16px 20px;
+  text-align: center;
+   margin: 20px 0;
+  cursor: pointer;
+  width: 100%;
+  border:none;
+  opacity: 1;
+}
+
+button:hover {
+  background-color: #3366ff;
+  opacity: 2;
+}
+
+/* Add a blue text color to links */
+a {
+  color: royalblue;
+}
+
+/* Set a background color and center the text of the "sign in" section */
+.signin {
+  background-color: white;
+  text-align: center;
+  padding: 16px;
+  margin-bottom: 10px;
+  border: 1 px solid;
+}
+
+</style>
