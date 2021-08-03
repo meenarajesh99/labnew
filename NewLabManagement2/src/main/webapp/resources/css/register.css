@@ -1,0 +1,104 @@
+<style type="text/css">
+  .borders{ border: 1px solid #fff; }
+
+  body {
+  font-family: Arial, "Times New Roman", Times, serif;
+  background-color: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+}
+.container_R {
+  padding: 46px;
+  background-color: white;
+}
+.content form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;;
+  margin: 8px 0;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  background:#D3D3D3; ;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px #07705d;
+  margin-bottom: 25px;
+}
+<!--Input text details-->
+
+.simple-input{
+  font-size: 15px;
+  color: #8e8d8d;
+  line-height: 18px;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-left: : 20px;
+  margin: 5px 0 15px 0;
+  width:100%
+  border: 1px solid #e0e0e0 ;
+  font-family: "Open Sans";
+}
+
+ form .category{
+   display: flex;
+   width: 80%;
+   margin: 14px 0 ;
+   justify-content: space-between;
+ }
+ form .category label{
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+ }
+ 
+
+/* Set a style for the submit button */
+  .registerbtn {
+  background-color: #3366ff;
+  color: white;
+  padding: 16px 20px;
+  margin: 10px 0;
+  border: 1 px solid;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}*/
+
+/* Add a blue text color to links */
+a {
+  color: royalblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #FFDAB9;
+  text-align: center;
+  padding: 16px;
+  margin-bottom: 10px;
+  border: 1 px solid;
+}
+
+</style>
